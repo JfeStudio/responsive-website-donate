@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Montserrat:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* font family
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 3200px;
+}
+
+/*navbar*/
+.navbar-collapse a:hover {
+    color: #10dbff !important;
+}
+
+.btn-navbar {
+    color: #33eb4cf1;
+    background: #d2ffc8;
+}
+
+.btn-navbar:hover {
+    color: #22ff05;
+    box-shadow: 0 .1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*content*/
+.content {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-content {
+    background: #1df078;
+}
+
+.btn-content:hover {
+    background: #19e772;
+}
+
+/* card */
+.card-box {
+    background: #0dc1e0;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.card-box:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    background: #15cbeb;
+}
+
+.card-items {
+    margin: 60px 0;
+    padding: 60px 0;
+    background: #f6ffff;
+}
+
+/* end */
+
+/* card donation */
+
+.card-donation {
+    padding: 50px 50px 70px 50px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.card-donation:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* end */
+
+/* donation */
+.donation,
+.register,
+.form-control {
+    background: #f6ffff;
+}
+
+/* end */
+
+/* sponsored */
+.sponsor {
+    margin: 90px 0;
+}
+
+/* end */
+
+/* footer */
+
+footer {
+    padding: 90px 0 60px 0;
+    background: #040405;
+    color: #fbfbfb;
+}
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width: 576px) {
+    .navbar {
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .col-content h1 {
+        font-size: 40px !important;
+    }
+
+    .col-content p {
+        font-size: 13px;
+    }
+
+    .intro-text,
+    .text-donated,
+    .text-trusted,
+    .text-register {
+        font-size: 13px;
+    }
+
+    .card-donation {
+        width: 320px !important;
+    }
+
+    .col-sponsor img {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card-donation {
+        width: 320px !important;
+    }
+}
